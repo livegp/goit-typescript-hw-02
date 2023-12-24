@@ -15,6 +15,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@nabla/vite-plugin-eslint": "^2.0.2",
+    "@spiriit/vite-plugin-svg-spritemap": "^2.1.0",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
@@ -28,7 +30,14 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3",
-    "vite": "^5.0.10"
+    "vite": "^5.0.10",
+    "vite-plugin-html-inject": "^1.0.4",
+    "vite-plugin-image-presets": "^0.3.4",
+    "vite-plugin-minify": "^1.5.2",
+    "vite-plugin-react-click-to-component": "^3.0.0",
+    "vite-plugin-stylelint": "^5.3.1",
+    "vite-plugin-webfont-dl": "^3.9.1",
+    "vite-plugin-zip-pack": "^1.0.7"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache --fix",
